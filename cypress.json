@@ -1,7 +1,7 @@
-{   
-    "baseUrl": "https://www.mercadolivre.com.br/",
-    "video": false,
-    "viewportWidth": 1280,
-    "viewportHeight": 800,
-    "ignoreTestFiles": "*.js"
+{
+  "baseUrl": "https://www.mercadolivre.com.br/",
+  "video": false,
+  "viewportWidth": 1280,
+  "viewportHeight": 800,
+  "ignoreTestFiles": "*.js"
 }

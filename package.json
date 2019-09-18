@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marciovrl/example-cypress.git"
+    "url": "git+https://github.com/marciovrl/example-cypress-cucumber.git"
   },
   "author": "Márcio Lemos",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/marciovrl/example-cypress/issues"
   },
-  "homepage": "https://github.com/marciovrl/example-cypress#readme",
+  "homepage": "https://github.com/marciovrl/example-cypress-cucumber#readme",
   "devDependencies": {
     "cypress": "^3.2.0",
     "cypress-cucumber-preprocessor": "^1.11.0"

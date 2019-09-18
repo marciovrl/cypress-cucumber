@@ -1,3 +1,3 @@
 beforeEach(() => {
-    cy.log("This will run before every scenario.");
+  cy.log("This will run before every scenario.");
 });
