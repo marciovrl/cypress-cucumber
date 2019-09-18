@@ -2,62 +2,62 @@
 
 Field for training e2e tests with the use of cypress
 
-Peguei o site `https://www.mercadolivre.com.br/` e desenvolvi a automação e2e das seguintes features: - Pesquisa de item.
+Using the site `https: // www.mercadolivre.com.br /` and developed e2e automation of the following features: - Item search.
 
-# Pré-condições:
+# Preconditions:
 
-- Pacote node instalado;
-- Chrome instalado.
+- Package node installed;
+- Chrome installed.
 
-# Para utilizar projeto exemplo-cypress:
+# To use example-cypress project:
 
-Clonar o projeto:
+Clone the project:
 
 ```
 git clone https://github.com/marciovrl/example-cypress-cucumber.git
 ```
 
-Instalar as dependencias executando:
+Install dependencies:
 
 ```
 npm install
 ```
 
-Para executar os testes:
+Run the tests:
 
 ```
 npm run test
 ```
 
-E para executar o cypress
+Run the cypress:
 
 ```
 npm run open
 ```
 
-# Para começar projeto semelhante do zero:
+# To start similar project from scratch:
 
-Primeiro criar a estrutura do projeto node:
+First create the node project structure:
 
 ```
 npm init
 ```
 
-Segundo instalar a dependencia do cypress:
+Second install cypress dependency:
 
 ```
 npm install cypress -–save-dev
 ```
 
-Terceiro instalar a dependencia do cucumber:
+Third install the cucumber dependency:
 
 ```
 npm install cypress-cucumber-preprocessor –-save-dev
 ```
 
-e configurar `cypress/plugins/index.js`.
+and set up `cypress/plugins/index.js`.
 
-Quarto é editar seu `package.json` e configurar os comandos de script. Exemplo:
+Fourth is to edit your `package.json` and configure the script commands. Example:
 
 ```
   "scripts": {
@@ -66,27 +66,4 @@ Quarto é editar seu `package.json` e configurar os comandos de script. Exemplo:
   },
 ```
 
-Pronto! Seu projeto Cypress configurado do zero.
-
-# Estrutura do projeto
-
-```
-|
-| - cypress
-    | - fixtures
-      | - `example.json`
-    | - integration
-      | - specifications
-        | - `example.feature`
-      | - steps_definitions
-        | - `example_steps.js`
-    | - plugins
-      | - `index.js`
-    | - support
-      | - `commands.js`
-      | - `index.js`
-| - `.gitignore`
-| - `cypress.json`
-| - `package.json`
-| - `README.md`
-```
+Ready! Your Cypress project set up from scratch.
